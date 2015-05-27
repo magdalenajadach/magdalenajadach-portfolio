@@ -1,0 +1,18 @@
+.main-container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.site-menu
+.main-content {
+    float: left;
+    display: inline-block;
+}
+
+.site-menu {
+    width: 30%;
+}
+
+.main-content {
+    width: 70%;
+}
