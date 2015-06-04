@@ -6,3 +6,9 @@
 body {
 	font-family: 'Lato';
 }
+
+header {
+	background: url(file:///Users/adminka/Desktop/magdalenajadach.github.io/photos/Magdalena_Jadach.jpg) no-repeat;
+	height: 700px;
+	width: 1200px;
+}
