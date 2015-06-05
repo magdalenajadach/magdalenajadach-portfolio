@@ -10,5 +10,34 @@ body {
 header {
 	background: url(http://magdalenajadach.github.io/photos/Magdalena_Jadach.jpg) no-repeat;
 	height: 700px;
-	width: 1200px;
+	width: 100%;
+}
+
+header p { 
+	color: #646464; 
+	font-size: 40px; 
+}
+
+header p.darker { 
+	color: #3f3f3f; 
+}
+
+main { 
+	padding: 3.2em 0; 
+	background-color: #eb4450; 
+}
+main h1 { 
+	text-align: center; 
+	line-height: 1.385; 
+	color: #FFF; 
+	font-size: 40px; 
+	font-weight: 400; 
+}
+
+#git { 
+	background-color: #3B7C5C; 
+}
+
+#git h2 
+{ color: #3D3D5C; 
 }
