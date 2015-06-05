@@ -8,8 +8,8 @@ body {
 }
 
 header {
-	background: url(http://magdalenajadach.github.io/photos/Magdalena_Jadach.jpg) no-repeat;
-	height: 700px;
+	background-color: #666699;
+	height: 500px;
 	width: 100%;
 }
 
@@ -38,6 +38,6 @@ main h1 {
 	background-color: #3B7C5C; 
 }
 
-#git h2 
-{ color: #3D3D5C; 
+#git h2 { 
+	color: #3D3D5C; 
 }
