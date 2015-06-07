@@ -7,11 +7,6 @@ body {
 	font-family: 'Lato';
 }
 
-.wrapper {
-	width: 960px;
-	height: 100%;
-}
-
 header {
 	background-color: #E0E0E5;
 	height: 400px;
@@ -20,6 +15,7 @@ header {
 header p { 
 	color: #646464; 
 	font-size: 40px; 
+	padding-top: 50px;
 }
 
 header p.darker { 
@@ -27,13 +23,13 @@ header p.darker {
 }
 
 header div.me { 
-	padding-top: 5px; 
+	padding-top: 10px; 
 	height: 100%; 
 	right: 0; 
 }
 
 header div.me img { 
-	max-width: 100%; 
+	width: 100%; 
 	height: auto; 
 }
 
@@ -79,9 +75,49 @@ main h1 {
 	margin-left: -40px; 
 }
 
+#bring a.btn { f
+	loat: right; 
+	display: inline-block; 
+	border-radius: 4px; 
+	background-color: #f5f5f5; 
+	padding: 0.5em 1em 0.6em 1em; 
+	color: #646464; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+#bring a.btn:hover { text-decoration: none; 
+}
+
+#bring a.btn.github:hover { 
+	background-color: #555; 
+	color: #FFF; 
+}
+
+#bring a.btn i { 
+	font-size: 42px; 
+	float: left; 
+	display: block; 
+	padding-top: 5px; 
+}
+
+#bring a.btn span { 
+	font-size: 12px; 
+	margin-left: 50px; 
+	text-align: left; 
+	padding-top: 5px; 
+	display: block; 
+	text-transform: 
+	uppercase; line-height: 12px; 
+}
+
+#bring a.btn strong { 
+	font-size: 28px; 
+	margin-left: 50px; 
+	display: block; 
+	line-height: 36px; 
+}
+
 #git { 
 	background-color: #3B7C5C; 
 	font-size: 60px;
+	text-align: center;
 }
 
 #git h2 { 
