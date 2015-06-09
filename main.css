@@ -167,6 +167,15 @@ main h1 {
 	font-weight: bold; 
 }
 
+#mail {
+	text-align: center;
+	background: #8AB8E6;
+}
+
+#mail ul {
+	list-style: none;
+}
+
 footer {
 	background: #F9F9F9;
 	font-size: 10px;
