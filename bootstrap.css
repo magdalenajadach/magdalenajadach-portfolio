@@ -13,3 +13,7 @@ body {
 a {
     background-color: transparent
 }
+
+b, strong {
+    font-weight: bold
+}
