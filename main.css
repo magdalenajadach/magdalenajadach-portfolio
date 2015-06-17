@@ -92,7 +92,7 @@ main h2 {
 }
 
 #bring a.btn { 
-	float: right; 
+	float: left; 
 	display: inline-block; 
 	border-radius: 4px; 
 	background-color: #f5f5f5; 
