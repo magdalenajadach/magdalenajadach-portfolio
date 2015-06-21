@@ -37,6 +37,7 @@ header p.darker {
 
 header div.me { 
 	padding-top: 10px; 
+	padding-right: 0px;
 	height: 100%; 
 	right: 0; 
 }
@@ -96,8 +97,13 @@ main h2 {
 	display: inline-block; 
 	border-radius: 4px; 
 	background-color: #f5f5f5; 
-	padding: 0.5em 1em 0.6em 1em; 
-	color: #646464; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+	padding: 18px 16px 18px 16px;
+	color: #646464; 
+	-moz-transition: all 0.2s ease; 
+	-webkit-transition: all 0.2s ease; 
+	-o-transition: all 0.2s ease; 
+	transition: all 0.2s ease; 
+}
 
 #bring a.btn:hover { 
 	text-decoration: none; 
@@ -121,8 +127,8 @@ main h2 {
 	text-align: left; 
 	padding-top: 5px; 
 	display: block; 
-	text-transform: 
-	uppercase; line-height: 12px; 
+	text-transform: uppercase; 
+	line-height: 12px; 
 }
 
 #bring a.btn strong { 
