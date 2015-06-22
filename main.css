@@ -166,7 +166,7 @@ main h2 {
 	height: 200px; 
 }
 
-#hobby h3 { 
+#hobby figcaption { 
 	font-size: 16px; 
 	color: #6b6b6b; 
 	text-transform: uppercase; 
