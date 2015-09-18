@@ -67,6 +67,7 @@ main h2 {
 #bring { 
 	background: #99CCFF; 
 	color: #000000;
+	text-align: center;
 }
 
 #bring h2 { 
@@ -90,7 +91,7 @@ main h2 {
 	font-family:'FontAwesome'; 
 	display: inline-block; 
 	width: 40px; 
-	margin-left: -40px; 
+	margin-left: -40px;
 }
 
 #bring a.btn { 
