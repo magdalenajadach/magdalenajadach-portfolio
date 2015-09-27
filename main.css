@@ -2,7 +2,7 @@
 
 @charset "utf-8";
 
-p {
+p, {
 	font-family: 'Lato', sans-serif;
 }
 
@@ -12,7 +12,7 @@ header {
 
 header strong { 
 	font-weight: 150; 
-	display: block; 
+	display: inline-block; 
 	color: #646464; 
 	font-size: 60px; 
 	padding-top: 65px; 
@@ -61,9 +61,10 @@ main h2 {
 	color: #000000ń; 
 	font-size: 40px; 
 	font-weight: 400; 
+	font-family: 'Lato', sans-serif;
 }
 
-#education, {
+#job, #education {
 	background: #F0F5F5;
 }
 
