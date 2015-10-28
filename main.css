@@ -43,9 +43,8 @@ header div.me {
 	right: 0; 
 }
 
-header div.me img { 
-	width: 100%; 
-	height: auto; 
+header img { 
+       margin: 0 auto;
 }
 
 .fa-terminal {
@@ -54,8 +53,8 @@ header div.me img {
 
 main { 
 	padding: 3.2em 0; 
-	background-color: #fbfbfa; 
 }
+
 main h2 { 
 	line-height: 1.385; 
 	color: #000000; 
@@ -65,12 +64,13 @@ main h2 {
 }
 
 
-#education {
-	background-color: #F0F5F5;
+#skills {
+
 }
 
+
 #job {
-	background-color: #fbfbfa; 
+	background-color:; 
 }
 
 #bring { 
@@ -184,15 +184,10 @@ main h2 {
 
 #mail {
 	text-align: center;
-	background: #8AB8E6;
 }
 
 #mail ul {
 	list-style: none;
-}
-
-hr {
-    vertical-align: center;
 }
 
 footer {
