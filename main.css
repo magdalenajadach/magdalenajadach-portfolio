@@ -2,8 +2,33 @@
 
 @charset "utf-8";
 
-p, {
-	font-family: 'Lato', sans-serif;
+
+@font-face {
+    font-family: 'Cantarell Regular';
+    src: url('../fonts/Cantarell/webfonts/cantarell_regular_macroman/Cantarell-Regular-webfont.eot');
+    src: url('../fonts/Cantarell/webfonts/cantarell_regular_macroman/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Cantarell/webfonts/cantarell_regular_macroman/Cantarell-Regular-webfont.woff') format('woff'),
+         url('../fonts/Cantarell/webfonts/cantarell_regular_macroman/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Cantarell/webfonts/cantarell_regular_macroman/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media {
+	max-width: 768px;
+}
+
+html, body {
+    height: 100%;
+    color: #555;
+    font-family: 'Cantarell Regular';
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Cantarell Regular';
+}
+
+a {
+	color: #5BADFF;
 }
 
 
@@ -73,90 +98,6 @@ main h2 {
 	background-color:; 
 }
 
-#bring { 
-	background: #99CCFF; 
-	color: #000000;
-	text-align: center;
-}
-
-#bring h2 { 
-	color: #000000; 
-}
-
-#bring ul { 
-	padding-left: 0; 
-	list-style: none; 
-}
-
-#bring ul li { 
-	padding-left: 40px; 
-	margin-bottom: 22px; 
-	line-height: 1.5em; 
-	font-size: 20px; 
-}
-
-#bring ul li:before { 
-	content: '\f00c'; 
-	display: inline-block; 
-	width: 40px; 
-	margin-left: -40px;
-}
-
-#bring a.btn { 
-	float: left; 
-	display: inline-block; 
-	border-radius: 4px; 
-	background-color: #f5f5f5; 
-	padding: 18px 16px 18px 16px;
-	color: #646464; 
-	-moz-transition: all 0.2s ease; 
-	-webkit-transition: all 0.2s ease; 
-	-o-transition: all 0.2s ease; 
-	transition: all 0.2s ease; 
-}
-
-#bring a.btn:hover { 
-	text-decoration: none; 
-}
-
-#bring a.btn.github:hover { 
-	background-color: #555; 
-	color: #FFF; 
-}
-
-#bring a.btn i { 
-	font-size: 42px; 
-	float: left; 
-	display: block; 
-	padding-top: 5px; 
-}
-
-#bring a.btn span { 
-	font-size: 12px; 
-	margin-left: 50px; 
-	text-align: left; 
-	padding-top: 5px; 
-	display: block; 
-	text-transform: uppercase; 
-	line-height: 12px; 
-}
-
-#bring a.btn strong { 
-	font-size: 28px; 
-	margin-left: 50px; 
-	display: block; 
-	line-height: 36px; 
-}
-
-#git { 
-	font-size: 60px;
-	text-align: center;
-}
-
-#git h2 { 
-	color: #3D3D5C; 
-}
-
 #git ul {
 	list-style: none;
 }
@@ -182,16 +123,8 @@ main h2 {
 	font-weight: bold; 
 }
 
-#mail {
-	text-align: center;
-}
-
-#mail ul {
-	list-style: none;
-}
 
 footer {
-	background: #F9F9F9;
 	font-size: 13px;
 	text-align: center;
 }
