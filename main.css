@@ -1,8 +1,5 @@
 <!-- CSS styles -->
 
-@charset "utf-8";
-
-
 @font-face {
     font-family: 'Cantarell Regular';
     src: url('../fonts/Cantarell/webfonts/cantarell_regular_macroman/Cantarell-Regular-webfont.eot');
@@ -31,46 +28,24 @@ a {
 	color: #5BADFF;
 }
 
+a:hover {
+    color: #8585AD;
+    text-decoration: none;
+}
+header {
+    padding-top: 30px;
+    margin-top: 0;
+}
+section {
+    margin: 0;
+}
 
 header strong { 
-	font-weight: 150; 
 	display: inline-block; 
 	color: #646464; 
 	font-size: 60px; 
-	padding-top: 65px; 
 }
 
-header strong span { 
-	color: #4D94FF; 
-	font-weight: 400; 
-	font-size: 106px; 
-	position: relative; 
-	top: -50px; 
-	margin-right: 5px; 
-}
-
-header p { 
-	color: #646464; 
-	font-size: 20px; 
-	padding-top: 50px;
-	font-family: 'Lato', sans-serif;
-
-}
-
-header p.darker { 
-	color: #3f3f3f; 
-}
-
-header div.me { 
-	padding-top: 10px; 
-	padding-right: 0px;
-	height: 100%; 
-	right: 0; 
-}
-
-header img { 
-       margin: 0 auto;
-}
 
 .fa-terminal {
 	color: #646464;
@@ -85,24 +60,11 @@ main h2 {
 	color: #000000; 
 	font-size: 40px; 
 	font-weight: 400; 
-	font-family: 'Lato', sans-serif;
 }
 
 
-#skills {
-
-}
-
-
-#job {
-	background-color:; 
-}
-
-#git ul {
+ul, li {
 	list-style: none;
-}
-
-#git li {
 	display: inline-block;
 }
 
@@ -110,4 +72,9 @@ main h2 {
 footer {
 	font-size: 13px;
 	text-align: center;
+}
+
+.top {
+	float: left;
+	display: block;
 }
