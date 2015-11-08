@@ -38,9 +38,6 @@ header {
     padding-top: 30px;
     margin-top: 0;
 }
-section {
-    margin: 0;
-}
 
 header strong { 
 	display: inline-block; 
@@ -48,6 +45,9 @@ header strong {
 	font-size: 60px; 
 }
 
+.container {
+    margin: 0 auto 10px auto;
+}
 
 .fa-terminal {
 	color: #646464;
