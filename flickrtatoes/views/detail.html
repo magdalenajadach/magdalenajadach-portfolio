@@ -1,0 +1,34 @@
+<!-- Detail html-->
+<ul class="detailView" ng-cloak="true">
+  <div class="container" ng-controller="DetailController">
+    <main>
+    <h1>Flickrtatoes</h1>
+    </main>
+    <hr />
+    <li class="list-group-item">
+      
+      
+      <div class="contentDetail">
+        <div class="back"><a class="btn btn-default" href="#/"><i class="fa fa-arrow-left"> Back</i></a></div>
+        <div class="title"><a ng-href="{{ post[id].link }}">{{ post[id].title }} </a></div>
+        <div class="authorDetail"><a ng-href="https://www.flickr.com/people/{{ post[id].author_id }}">Photo author </a></div>
+        <div class="dateDetail">| Published: {{ post[id].published | date:" d MMM yyyy 'at' HH:mm"}}</div>
+        
+        <img class="imgDetail" ng-src="{{ post[id].media.m }}" alt="" />
+        <p class="desc"><strong>Description:</strong></p><div class="hide_desc" ng-bind-html="post[id].description  | to_trusted"></div>
+        <div class="tags"><strong>Tags:</strong> {{ post[id].tags }}</div>
+      </div>
+      
+    </li>
+    
+    <hr />
+    <footer>
+      <i class="fa fa-copyright"></i>
+      <script type="text/javascript">
+      document.write(new Date().getFullYear());
+      </script>
+      <a href="http://magdalenajadach.github.io">Magdalena Jadach</a>
+      <p>Icons <i class="fa fa-hand-o-right"></i><a href="http://fortawesome.github.io/Font-Awesome/"> Font Awesome</a></p>
+    </footer>
+  </div>
+</ul>
