@@ -51,10 +51,12 @@ input {
 		height: auto;
 	}
 	.date {
-		display: inline-block; 
+		display: inline-block;
+		margin-right: 10px;
 	}
 	.author {
-		float: left; 
+		float: left;
+		margin-right: 10px;
 	}
 	.title {
 		overflow: visible;
@@ -70,6 +72,14 @@ input {
 	img {
 		max-width: 150px;
 		max-height: auto;
+	}
+	.date {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.author {
+		float: left;
+		margin-right: 5px;
 	}
 }
 
