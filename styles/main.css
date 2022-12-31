@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  font-size: clamp(1.6rem, 2vw, 2.4rem);
+  margin: 0 auto;
+  max-width: 100.25rem;
+}
+
+.item {
+  padding: 1rem;
+}
+
+.one {
+  background-color: #002642;
+  grid-area: 1/2/2/6;
+}
+
+.two {
+  background-color: #840032;
+  grid-area: 2/1/5/2;
+}
+
+.three {
+  background-color: #e59500;
+  grid-area: 2/2/3/3;
+}
+
+.four {
+  background-color: #e5dada;
+  grid-area: 2/2/4/4;
+}
+
+.five {
+  background-color: #02040f;
+  grid-area: 2/4/6/6;
+}
+
+.six {
+  background-color: #840032;
+  grid-area: 4/2/6/4;
+}/*# sourceMappingURL=main.css.map */
