@@ -1,5 +1,7 @@
 import logo from './images/memo-software.PNG';
-import './App.css';
+import './App.scss';
+
+import Terminal from './components/Terminal/Terminal';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
           Yo!
         </p>
       </header>
+      <Terminal />
     </div>
   );
 }
