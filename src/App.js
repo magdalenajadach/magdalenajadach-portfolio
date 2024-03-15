@@ -1,7 +1,7 @@
 import logo from './images/memo-software.PNG';
 import './App.scss';
 
-import Terminal from './components/Terminal/Terminal';
+// import Terminal from './components/Terminal/Terminal';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           </p>
         </header>
       </div>
-      <Terminal />
+      {/* <Terminal /> */}
     </div>
   );
 }
