@@ -1,13 +1,11 @@
 @import "../../stylesheets/colors";
 
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-.App-header {
-    // background-color: #282c34;
+.header__wrapper {
+    text-align: center;
+} 
+
+.header {
     background-color: $raisin-black;
     min-height: 100vh;
     display: flex;
@@ -16,13 +14,31 @@
     justify-content: center;
 }
 
+.header__logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+  
+
 h1 {
     color: $seasalt;
     font-weight: 700;
-    font-size: calc(14px + 2vmin);
+    font-size: calc(16px + 2vmin);
 }
 
 h2 {
-    color: #F39237;
-    font-size: calc(10px + 2vmin);
+    // color: $carrot-orange;
+    color: $zomp;
+    font-size: calc(14px + 2vmin);
+}
+
+
+.github__logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/github.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-block-start: 2rem;
 }
