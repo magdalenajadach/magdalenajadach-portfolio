@@ -2,7 +2,7 @@
 
 Welcome to my personal website! 🌟 Built with a focus on simplicity and performance, this portfolio serves as a hub to explore my work and learn more about my journey as a developer.
 
-### 🛠️ Technologies Used
+### 🛠️ Technologies used
 
 React: For creating dynamic and reusable UI components.
 CSS/SCSS: To ensure the design is clean, modern, and accessible.
@@ -13,7 +13,7 @@ GitHub Pages / Vercel: For seamless deployment and hosting.
 Project Showcase:
 Dive into my projects, where I highlight key achievements, challenges tackled, and the technologies used.
 
-### Digital Presence:
+### Digital presence
 
 Connect with me through my social profiles to see more about my professional journey and ongoing work.
 
