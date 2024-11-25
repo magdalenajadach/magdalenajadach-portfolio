@@ -15,6 +15,10 @@ const geistMono = localFont({
 export const metadata = {
   title: "Magdalena Jadach",
   description: "Personal portfolio",
+  // icons: {
+  //   icon: "/favicon.ICO",
+  // },
+
 };
 
 export default function RootLayout({ children }) {
