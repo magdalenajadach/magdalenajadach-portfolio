@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --seasalt: #F8F7F9;
+  --raisin-black: #2E2836;
+  --carrot-orange: #F39237;
+  --zomp: #dee187;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  transition: scroll-behavior 700ms linear;
+}
