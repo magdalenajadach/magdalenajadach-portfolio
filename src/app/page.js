@@ -37,6 +37,13 @@ export default function Home() {
             >
               <span className="text-xl font-semibold">Github</span>
             </a>
+            <a
+              aria-label="Navigate to Linkedin prpfile"
+              href="https://www.linkedin.com/in/magdalenajadach/"
+              className="hover:text-carrot-orange hover:underline"
+            >
+              <span className="text-xl font-semibold">Linkedin</span>
+            </a>
             <button
               onClick={scrollToProjects}
               className="hover:text-carrot-orange hover:underline"
