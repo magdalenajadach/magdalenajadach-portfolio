@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import ProjectSection from "./components/ProjectsSection/ProjectsSection";
+import Footer from "./components/Footer/Footer"
 
 export default function Home() {
   const projectsRef = useRef(null);
@@ -33,20 +34,20 @@ export default function Home() {
             <a
               aria-label="Navigate to Github portfolio"
               href="https://github.com/magdalenajadach"
-              className="hover:text-carrot-orange hover:underline"
+              className="hover:text-carrot-orange hover:underline transition-colors duration-300"
             >
               <span className="text-xl font-semibold">Github</span>
             </a>
             <a
               aria-label="Navigate to Linkedin prpfile"
               href="https://www.linkedin.com/in/magdalenajadach/"
-              className="hover:text-carrot-orange hover:underline"
+              className="hover:text-carrot-orange hover:underline transition-colors duration-300"
             >
               <span className="text-xl font-semibold">Linkedin</span>
             </a>
             <button
               onClick={scrollToProjects}
-              className="hover:text-carrot-orange hover:underline"
+              className="hover:text-carrot-orange hover:underline transition-colors duration-300"
             >
               <span className="text-xl font-semibold">Projects</span>
             </button>
@@ -59,6 +60,7 @@ export default function Home() {
       >
         <ProjectSection />
       </section>
+      <Footer />
     </div>
   );
 }
