@@ -33,3 +33,45 @@ html, body {
   scroll-behavior: smooth;
   transition: scroll-behavior 700ms linear;
 }
+
+/* Smooth animations for links and interactive elements */
+@media (prefers-reduced-motion: no-preference) {
+  a,
+  button {
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover,
+  button:hover {
+    transform: translateY(-2px);
+  }
+
+  .hover\:shadow-lg:hover {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-4px);
+  }
+
+  .hover\:shadow-xl:hover {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-4px);
+  }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  a:hover,
+  button:hover,
+  .hover\:shadow-lg:hover,
+  .hover\:shadow-xl:hover {
+    transform: none;
+  }
+}

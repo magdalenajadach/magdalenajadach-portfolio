@@ -3,14 +3,18 @@ import { projectsData } from "./projectsData";
 
 export default function ProjectsSection() {
   return (
-    <section className="py-12" id="projects" aria-labelledby="projects-heading">
-      <div className="container mx-auto px-4">
+    <section className="py-16 px-4 w-full" id="projects" aria-labelledby="projects-heading">
+      <div className="container mx-auto max-w-6xl">
         <h2
           id="projects-heading"
-          className="text-3xl font-bold text-center mb-8 text-raisin-black"
+          className="text-4xl font-bold text-center mb-4 text-seasalt"
         >
-          My Recent Projects
+          Latest Projects
         </h2>
+        <p className="text-center text-seasalt text-lg mb-12 max-w-3xl mx-auto">
+          A selection of recent work showcasing my expertise in building accessible,
+          user-focused web applications with modern technologies.
+        </p>
         {projectsData.map((project, index) => (
           <article
             key={project.title}
