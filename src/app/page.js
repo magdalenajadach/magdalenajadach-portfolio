@@ -3,14 +3,31 @@
 import { useRef } from "react";
 import Image from "next/image";
 import ProjectSection from "./components/ProjectsSection/ProjectsSection";
+import ConsultingSection from "./components/ConsultingSection/ConsultingSection";
+import ContactSection from "./components/ContactSection/ContactSection";
+import SectionDivider from "./components/SectionDivider/SectionDivider";
 import Footer from "./components/Footer/Footer"
 
 export default function Home() {
   const projectsRef = useRef(null);
+  const consultingRef = useRef(null);
+  const contactRef = useRef(null);
 
   const scrollToProjects = () => {
     if (projectsRef.current) {
       projectsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToConsulting = () => {
+    if (consultingRef.current) {
+      consultingRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToContact = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -30,35 +47,50 @@ export default function Home() {
           <h2 className="text-zomp text-2xl font-semibold pb-4">
             I like computers and mud
           </h2>
-          <div className="text-seasalt flex gap-4">
-            <a
-              aria-label="Navigate to Github portfolio"
-              href="https://github.com/magdalenajadach"
+          <nav className="text-seasalt flex flex-col sm:flex-row gap-4" aria-label="Main navigation">
+            <button
+              onClick={scrollToConsulting}
               className="hover:text-carrot-orange hover:underline transition-colors duration-300"
+              aria-label="Scroll to consulting section"
             >
-              <span className="text-xl font-semibold">Github</span>
-            </a>
-            <a
-              aria-label="Navigate to Linkedin prpfile"
-              href="https://www.linkedin.com/in/magdalenajadach/"
-              className="hover:text-carrot-orange hover:underline transition-colors duration-300"
-            >
-              <span className="text-xl font-semibold">Linkedin</span>
-            </a>
+              <span className="text-xl font-semibold">Consulting</span>
+            </button>
             <button
               onClick={scrollToProjects}
               className="hover:text-carrot-orange hover:underline transition-colors duration-300"
+              aria-label="Scroll to projects section"
             >
               <span className="text-xl font-semibold">Projects</span>
             </button>
-          </div>
+            <button
+              onClick={scrollToContact}
+              className="hover:text-carrot-orange hover:underline transition-colors duration-300"
+              aria-label="Scroll to contact section"
+            >
+              <span className="text-xl font-semibold">Contact</span>
+            </button>
+          </nav>
         </header>
       </main>
+      <section
+        ref={consultingRef}
+        className="min-h-screen flex justify-center items-center w-full"
+      >
+        <ConsultingSection />
+      </section>
+      <SectionDivider />
       <section
         ref={projectsRef}
         className="min-h-screen flex justify-center items-center"
       >
         <ProjectSection />
+      </section>
+      <SectionDivider />
+      <section
+        ref={contactRef}
+        className="min-h-screen flex justify-center items-center w-full"
+      >
+        <ContactSection />
       </section>
       <Footer />
     </div>

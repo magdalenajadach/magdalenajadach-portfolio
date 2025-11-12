@@ -9,7 +9,7 @@ export const projectsData = [
     description:
       "The Medical Tracker is a web application designed to help users manage their health data effectively. Built with React and Node.js, it offers features like medication tracking, appointment scheduling, and health reminders.",
     url: "https://www.medicaltracker.co.uk/",
-    imageUrl: "/projects/mtl.png",
+    imageUrl: "/projects/mt2.png",
     imageAlt: "Screenshot of Medical Tracker application showing user dashboard",
   },
   {
